@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:black;
+}
+.section-paddin{
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.single-item {
+    color:antiquewhite;
+    position:absolute;
+    /* transform: translate(-50%,-50%) scale(0); */
+    transition: transform .6s;
+}
+
+.single-item .icon {
+    /* width: 10rem; */
+    /* height: auto; */
+    align-items: center;
+    margin: auto;
+    font-size: 3rem;
+}
+.section-title{
+    font-size: 10rem;
+}
